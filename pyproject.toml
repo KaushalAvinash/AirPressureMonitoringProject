@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sensor"
+version = "0.0.1"
+authors = [
+    { name = "Avinash", email = "avinashkaushal763@gmail.com" }
+]
+description = "Your project description here"
+readme = "README.md"
+dependencies = [ "requirements.txt"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
