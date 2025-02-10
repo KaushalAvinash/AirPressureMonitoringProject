@@ -2,3 +2,6 @@ pandas
 numpy
 matplotlib
 seaborn
+pymongo
+python-dotenv
+pymongo[srv]==3.12
